@@ -1,0 +1,179 @@
+header{
+  height:20px;
+  padding:15px;
+  width:100%;
+  display:inline;
+  position:fixed;
+  top:0;
+  background-color:white;
+}
+
+.center{
+  margin-left:400px;
+}
+
+.right{
+  float:right;
+}
+h3{
+  display:inline;
+}
+
+.head a{
+  text-decoration:none;
+  color:black;
+}
+
+.head button{
+  background-color:rgb(98,136,165);
+  border-radius:3px;
+  margin-left:10px;
+  margin-right:10px;
+  border:solid 2px rgb(77,123,159);
+
+
+}
+
+.helvet{
+  font-family:'Libre Franklin',helvetica,arial,sans-serif;
+  font-weight:900;
+  font-size:14px;
+}
+
+.container {
+  width:800px;
+  margin-top: 80px;
+  margin-left:auto;
+  margin-right:auto;
+  width:800px;
+}
+
+.container img {
+  margin:0 auto;
+}
+
+.container h3{
+  margin-left: 200px;
+  font-size: 30px;
+}
+
+.byline{
+  display:inline;
+}
+
+.circle{
+  background-color:grey;
+  border-radius:50%;
+  color:black;
+  margin-right:10px;
+}
+
+#inflation{
+  border-bottom:1px solid rgb(226,226,226);
+  margin-top:15px;
+  margin-bottom:15px;
+  width:945px;
+}
+
+#toi{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-column-gap:10px;
+  background-image:url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+#toi-element{
+  margin-top:125px;
+}
+
+#trending{
+  border-top:1px solid black;
+  width:240px;
+  float:right;
+  margin-right:100px;
+}
+#trend{
+  padding-top:5px;
+  padding-bottom:5px;
+  border-bottom:1px solid black;
+}
+
+#trend a{
+  text-decoration:none;
+  color:black;
+  font-weight:550;
+}
+
+#piclinks{
+  width:900px;
+  margin-left:50px;
+  height:500px;
+}
+
+.picblocks{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap:5px;
+}
+
+.edpicblocks{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-column-gap:5px;
+}
+
+.phorm{
+  width:800px;
+}
+.lefty{
+  width:300px;
+  float:left;
+}
+.righty{
+  margin-top:60px;
+  float:right;
+  width:500px;
+}
+
+.righty button{background-color:rgb(98,136,165);
+  border-radius:3px;
+  margin-left:10px;
+  margin-right:10px;
+  border:solid 2px rgb(77,123,159);
+  width:500px;}
+
+.clear{
+  clear:both;
+}
+.crap{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  grid-column-gap:15px;
+}
+
+.picks{
+  width:900px;
+}
+
+.endlesslogo{
+  font-family:'Libre Franklin',helvetica,arial,sans-serif;
+  font-weight:900;
+  font-size:14px;
+}
+
+.lilcrappies{
+  font-weight:700;
+}
+
+.lilcrappies a{
+  text-decoration:none;
+  color:black;
+  margin-bottom:5px;
+}
+
+.lilcrappies a:hover{
+  text-decoration:underline;
+}
